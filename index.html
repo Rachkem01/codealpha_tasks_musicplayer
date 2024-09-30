@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Rach Music App</title>
+</head>
+<body>
+<section class="nav">
+    <div>
+        <h3>AudioLib</h3>
+    </div>
+    <div class="input-container">
+        <i class="fa fa-home"></i>
+        <input type="text" placeholder="What do you want to play?">
+    </div>
+    <div class="btn-group">
+    <button class="explore">Explore Premium</button>
+    <i class="fa fa-arrow-circle-o-down"></i><span class="install">Install App</span>
+    <button class="in">Sign in</button>
+    </div>
+</section>
+<div class="divider"></div>
+<section class="side">
+<ul>
+<h3>Music Library</h3>
+<ul>
+<li>HillSong</li>
+<li>Elevation Worship</li>
+<li>Casting Crown</li>
+<li>Don Moen</li>
+<li>Dunsin Oyekan</li>
+<li>Lanwrence Oyor</li>
+<li>Theophilus Sunday</li>
+<li>Quincy Larson</li>
+<li>Mercy Chinwo</li>
+<li>Tope Alabi</li>
+</ul>
+</ul>
+</section>
+<section class="container">
+    <!-- <div class="player">
+      <div class="player-bar">
+        <div class="parallel-lines">
+          <div></div>
+          <div></div>
+        </div>
+        
+        </div> -->
+      <!-- </div>
+      <div class="player-content">
+        <div id="player-album-art">
+           
+        </div> -->
+        <div class="player-display">
+          <div class="player-display-song-artist">
+            <img src="istockphoto-1246138278-612x612-removebg-preview.png">
+            <p id="player-song-title"></p>
+            <p id="player-song-artist"></p>
+            <div>Click on the buttons to enjoy your music</div>
+          </div>
+          <div class="player-buttons">
+            <button id="previous" class="previous" aria-label="Previous">
+                <i class="fa fa-backward" ></i>
+            </button>
+            <button id="play" class="play" aria-label="Play">
+               <i class="fa fa-play-circle-o"></i> 
+            </button>
+            <button id="pause" class="pause" aria-label="Pause">
+                <i class="fa fa-pause-circle-o" ></i>
+            </button>
+            <button id="next" class="next" aria-label="Next">
+               <i class="fa fa-step-forward"></i> 
+            </button>
+            <button id="shuffle" class="shuffle" aria-label="Shuffle">
+                <i class="fa fa-random" ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="playlist">
+      
+        <h2 class="playlist-title" id="playlist">Playlist</h2>
+        
+      <ul id="playlist-songs">
+        <p id="player-song-title"></p>
+            <p id="player-song-artist"></p>
+            
+      </ul>
+    </div>
+</section>
+<section class="footer"></section>
+<script src="script.js"></script>    
+</body>
+</html>
